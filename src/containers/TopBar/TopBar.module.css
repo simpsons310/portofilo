@@ -1,0 +1,9 @@
+.TopBar {
+  height: 40px;
+  background-color: var(--fb-blue-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--fb-gray);
+  padding: 0 10px;
+}

@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
+import classes from './TopBar.module.css';
+import NavigationItems from '../../components/NavigationItems/NavigationItems';
+import Logo from '../../components/Logo/Logo';
 
 class TopBar extends Component {
-  items = [
-    {key: 'about', content: 'About'},
-    {key: 'experience', content: 'Experience'},
-    {key: 'work', content: 'Work'},
-    {key: 'contact', content: 'Contact'},
-  ]
-
   render() {
-    let navItems = this.items.map(item =>
-      <li key={item.key}>{item.content}</li>
-    )
-
-    return <div>
-      <ul>
-        { navItems }
-      </ul>
+    return <div className={classes.TopBar}>
+      <Logo/>
+      <NavigationItems/>
     </div>
   }
 }

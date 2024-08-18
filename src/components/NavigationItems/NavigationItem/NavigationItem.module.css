@@ -1,0 +1,9 @@
+.NavigationItem {
+  display: inline;
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--fb-white);
+  border-right: 1px solid var(--fb-gray);
+}

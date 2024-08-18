@@ -1,0 +1,19 @@
+.Logo {
+  text-align: center;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.Logo p {
+  margin: 0;
+}
+
+.Brand {
+  color: var(--fb-white);
+  font-family: var(--fb-font);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1;
+}

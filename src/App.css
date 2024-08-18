@@ -1,3 +1,12 @@
+:root {
+  --fb-blue-dark: #4267B2;
+  --fb-blue-light: #3578E5;
+  --fb-gray: #898F9C;
+  --fb-black: #000000;
+  --fb-white: #FFFFFF;
+  --fb-font: "lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
 .App {
   text-align: center;
 }
